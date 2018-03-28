@@ -40,5 +40,22 @@ namespace GodOfHacker
         {
             MessageBox.Show("已经锤爆出题人的狗头！");
         }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+            FM_show fs = new FM_show(text_cumTitle.Text,text_cumText.Text, (int)numericUpDown1.Value);
+            fs.Owner = this;
+            fs.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/WWILLV/GodOfHacker/");
+        }
+
+        private void button59_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://music.163.com/#/m/song?id=333750&userid=340656630");
+        }
     }
 }

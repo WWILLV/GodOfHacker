@@ -58,10 +58,19 @@
     <Compile Include="FM_God.Designer.cs">
       <DependentUpon>FM_God.cs</DependentUpon>
     </Compile>
+    <Compile Include="FM_show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FM_show.Designer.cs">
+      <DependentUpon>FM_show.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FM_God.resx">
       <DependentUpon>FM_God.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FM_show.resx">
+      <DependentUpon>FM_show.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
