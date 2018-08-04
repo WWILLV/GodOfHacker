@@ -58,6 +58,12 @@
     <Compile Include="FM_God.Designer.cs">
       <DependentUpon>FM_God.cs</DependentUpon>
     </Compile>
+    <Compile Include="FM_plugin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FM_plugin.Designer.cs">
+      <DependentUpon>FM_plugin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FM_show.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FM_God.resx">
       <DependentUpon>FM_God.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FM_plugin.resx">
+      <DependentUpon>FM_plugin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FM_show.resx">
       <DependentUpon>FM_show.cs</DependentUpon>
