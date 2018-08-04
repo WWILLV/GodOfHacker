@@ -8,10 +8,14 @@
 此外软件高度定制化，拥有插件功能，可使用各种强大的插件来丰富软件功能。
 
 部分功能截图如下
+
+
+
 ![1.png](https://i.loli.net/2018/08/04/5b6526975ac34.png)
 ![2.png](https://i.loli.net/2018/08/04/5b65269765ae0.png)
 ![3.png](https://i.loli.net/2018/08/04/5b6526976af67.png)
 ![4.png](https://i.loli.net/2018/08/04/5b65269778322.png)
+
 啥也不说了，贼强！
 
 ## Release
