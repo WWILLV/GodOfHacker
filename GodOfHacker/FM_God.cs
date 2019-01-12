@@ -119,5 +119,24 @@ namespace GodOfHacker
                 }
             }
         }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show(
+                "是否要加入CTF群(473831530)交流学习?\n群里有大佬，有萌妹，又会拿CVE又会嘤嘤嘤","大佬大佬加群吗",
+                MessageBoxButtons.OKCancel)== DialogResult.OK)
+            {
+                MessageBox.Show("PC端加群题链接不好复制，已自动复制到剪切板");
+                string question = "https://shimo.im/doc/rhhI8AQQm58DK2fD";
+                Clipboard.SetDataObject(question, true);
+                textBox3.Text = "CTF学习交流(473831530)加群题：" + question;
+                string qun = "https://jq.qq.com/?_wv=1027&k=5ybzutl";
+                webBrowser1.Navigate(qun);
+            }
+            else
+            {
+                MessageBox.Show("谢谢大佬");
+            }
+        }
     }
 }

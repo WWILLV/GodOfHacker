@@ -115,6 +115,17 @@
             this.button46 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button45 = new System.Windows.Forms.Button();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.button73 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.progressBar2 = new System.Windows.Forms.ProgressBar();
+            this.button72 = new System.Windows.Forms.Button();
+            this.button71 = new System.Windows.Forms.Button();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
@@ -126,17 +137,8 @@
             this.text_cumText = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button73 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -144,9 +146,9 @@
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
+            this.tabPage8.SuspendLayout();
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.tabPage8.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -669,6 +671,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.webBrowser1);
+            this.tabPage3.Controls.Add(this.button74);
             this.tabPage3.Controls.Add(this.button66);
             this.tabPage3.Controls.Add(this.button65);
             this.tabPage3.Controls.Add(this.button64);
@@ -740,7 +744,7 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(82, 13);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(229, 21);
+            this.textBox3.Size = new System.Drawing.Size(377, 21);
             this.textBox3.TabIndex = 6;
             // 
             // label4
@@ -1015,6 +1019,114 @@
             this.button45.Text = "一键绿帽";
             this.button45.UseVisualStyleBackColor = true;
             // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.button73);
+            this.tabPage8.Controls.Add(this.textBox5);
+            this.tabPage8.Controls.Add(this.label13);
+            this.tabPage8.Controls.Add(this.progressBar2);
+            this.tabPage8.Controls.Add(this.button72);
+            this.tabPage8.Controls.Add(this.button71);
+            this.tabPage8.Controls.Add(this.comboBox2);
+            this.tabPage8.Controls.Add(this.label12);
+            this.tabPage8.Controls.Add(this.label11);
+            this.tabPage8.Controls.Add(this.textBox4);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(595, 346);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "插件";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // button73
+            // 
+            this.button73.Location = new System.Drawing.Point(11, 304);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(75, 23);
+            this.button73.TabIndex = 9;
+            this.button73.Text = "插件商店";
+            this.button73.UseVisualStyleBackColor = true;
+            this.button73.Click += new System.EventHandler(this.button73_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(95, 236);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(492, 56);
+            this.textBox5.TabIndex = 8;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(9, 239);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(89, 12);
+            this.label13.TabIndex = 7;
+            this.label13.Text = "插件参数设置：";
+            // 
+            // progressBar2
+            // 
+            this.progressBar2.Location = new System.Drawing.Point(9, 162);
+            this.progressBar2.Name = "progressBar2";
+            this.progressBar2.Size = new System.Drawing.Size(578, 23);
+            this.progressBar2.TabIndex = 6;
+            // 
+            // button72
+            // 
+            this.button72.Location = new System.Drawing.Point(478, 201);
+            this.button72.Name = "button72";
+            this.button72.Size = new System.Drawing.Size(75, 23);
+            this.button72.TabIndex = 5;
+            this.button72.Text = "开始";
+            this.button72.UseVisualStyleBackColor = true;
+            this.button72.Click += new System.EventHandler(this.button72_Click);
+            // 
+            // button71
+            // 
+            this.button71.Location = new System.Drawing.Point(397, 201);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(75, 23);
+            this.button71.TabIndex = 4;
+            this.button71.Text = "插件测试";
+            this.button71.UseVisualStyleBackColor = true;
+            this.button71.Click += new System.EventHandler(this.button71_Click);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(71, 203);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(320, 20);
+            this.comboBox2.TabIndex = 3;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 206);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(65, 12);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "选择插件：";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(9, 20);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 12);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "输入：";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(9, 38);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(578, 117);
+            this.textBox4.TabIndex = 0;
+            // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.linkLabel1);
@@ -1133,113 +1245,24 @@
             this.label6.TabIndex = 0;
             this.label6.Text = "你还想要设置？（滑稽）";
             // 
-            // tabPage8
+            // button74
             // 
-            this.tabPage8.Controls.Add(this.button73);
-            this.tabPage8.Controls.Add(this.textBox5);
-            this.tabPage8.Controls.Add(this.label13);
-            this.tabPage8.Controls.Add(this.progressBar2);
-            this.tabPage8.Controls.Add(this.button72);
-            this.tabPage8.Controls.Add(this.button71);
-            this.tabPage8.Controls.Add(this.comboBox2);
-            this.tabPage8.Controls.Add(this.label12);
-            this.tabPage8.Controls.Add(this.label11);
-            this.tabPage8.Controls.Add(this.textBox4);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(595, 346);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "插件";
-            this.tabPage8.UseVisualStyleBackColor = true;
+            this.button74.Location = new System.Drawing.Point(317, 180);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(88, 23);
+            this.button74.TabIndex = 12;
+            this.button74.Text = "一键加CTF群";
+            this.button74.UseVisualStyleBackColor = true;
+            this.button74.Click += new System.EventHandler(this.button74_Click);
             // 
-            // textBox4
+            // webBrowser1
             // 
-            this.textBox4.Location = new System.Drawing.Point(9, 38);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(578, 117);
-            this.textBox4.TabIndex = 0;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(9, 20);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 12);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "输入：";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(9, 206);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(65, 12);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "选择插件：";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(71, 203);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(320, 20);
-            this.comboBox2.TabIndex = 3;
-            // 
-            // button71
-            // 
-            this.button71.Location = new System.Drawing.Point(397, 201);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(75, 23);
-            this.button71.TabIndex = 4;
-            this.button71.Text = "插件测试";
-            this.button71.UseVisualStyleBackColor = true;
-            this.button71.Click += new System.EventHandler(this.button71_Click);
-            // 
-            // button72
-            // 
-            this.button72.Location = new System.Drawing.Point(478, 201);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(75, 23);
-            this.button72.TabIndex = 5;
-            this.button72.Text = "开始";
-            this.button72.UseVisualStyleBackColor = true;
-            this.button72.Click += new System.EventHandler(this.button72_Click);
-            // 
-            // progressBar2
-            // 
-            this.progressBar2.Location = new System.Drawing.Point(9, 162);
-            this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(578, 23);
-            this.progressBar2.TabIndex = 6;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(9, 239);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(89, 12);
-            this.label13.TabIndex = 7;
-            this.label13.Text = "插件参数设置：";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(95, 236);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(492, 56);
-            this.textBox5.TabIndex = 8;
-            // 
-            // button73
-            // 
-            this.button73.Location = new System.Drawing.Point(11, 304);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(75, 23);
-            this.button73.TabIndex = 9;
-            this.button73.Text = "插件商店";
-            this.button73.UseVisualStyleBackColor = true;
-            this.button73.Click += new System.EventHandler(this.button73_Click);
+            this.webBrowser1.Location = new System.Drawing.Point(411, 183);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(20, 20);
+            this.webBrowser1.TabIndex = 13;
+            this.webBrowser1.Visible = false;
             // 
             // FM_God
             // 
@@ -1263,11 +1286,11 @@
             this.tabPage5.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             this.tabPage7.ResumeLayout(false);
             this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.tabPage8.ResumeLayout(false);
-            this.tabPage8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1382,6 +1405,8 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ProgressBar progressBar2;
+        private System.Windows.Forms.Button button74;
+        private System.Windows.Forms.WebBrowser webBrowser1;
     }
 }
 
